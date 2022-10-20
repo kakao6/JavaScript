@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Keywords" content="This is keywords.">
+    <meta name="Description" content="This is description.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>使用let 关键字声明变量</title>
+    
+</head>
+<script>
+// <!-- 块级作用域  使用let 关键字声明的变量 才具有块级作用域 var 关键字不具备这个特点-->
+//    没有变量提升，必须先声明，后使用
+  if(true){
+      let a = "123"
+      var b = "hello"
+      console.log(a)
+  }
+  console.log(b)
+  //console.log(a+'!!!!')
+
+
+  let  c = 10086
+  console.log(c)
+  
+
+</script>
+<body>
+  
+
+</body>
+
+
+</html>
