@@ -1,1 +1,1 @@
-# JavaScript
+# JavaScript 小案例
